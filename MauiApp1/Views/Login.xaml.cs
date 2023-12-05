@@ -67,8 +67,8 @@ public partial class Login : ContentPage
 
         loginButton.Clicked += loginButton_Clicked;
     }
-    private async void loginButton_Clicked(object? sender, EventArgs e)
+    private void loginButton_Clicked(object? sender, EventArgs e)
     {
-        await Navigation.PushAsync(new MainPage());
+        Application.Current.MainPage = new MainPage();
     }
 }

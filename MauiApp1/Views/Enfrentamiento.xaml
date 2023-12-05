@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Views.Enfrentamiento"
+             Title="Enfrentamiento">
+    <Grid Padding="20" RowSpacing="10" ColumnSpacing="50" RowDefinitions="40,40,40,40,40,40,40,40,40,40,40,40,40">
+        <HorizontalStackLayout Grid.Row="0">
+            <Button x:Name="team1Btn" Text="Equipo1" BackgroundColor="BlueViolet" VerticalOptions="Center" WidthRequest="80"></Button>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout Grid.Row="2">
+            <Button x:Name="team2" Text="Equipo2" BackgroundColor="BlueViolet" VerticalOptions="Center"></Button>
+        </HorizontalStackLayout>
+
+        <VerticalStackLayout Grid.Row="1" Grid.Column="2">
+            <Button x:Name="win1" Text="Win1" BackgroundColor="BlueViolet" WidthRequest="80" HeightRequest="40"></Button>
+        </VerticalStackLayout>
+        
+        <HorizontalStackLayout Grid.Row="3">
+            <Button x:Name="team3" Text="Equipo3" BackgroundColor="#D466A3" VerticalOptions="Center"></Button>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Grid.Row="5">
+            <Button x:Name="team4" Text="Equipo4" BackgroundColor="#D466A3" VerticalOptions="Center"></Button>
+        </HorizontalStackLayout>
+
+        <VerticalStackLayout Grid.Row="4" Grid.Column="2">
+            <Button x:Name="win2Btn" Text="Win2" BackgroundColor="#D466A3" WidthRequest="80" HeightRequest="40"></Button>
+        </VerticalStackLayout>
+
+        <HorizontalStackLayout Grid.Row="6">
+            <Button x:Name="team5" Text="Equipo5" BackgroundColor="#B3578D" VerticalOptions="Center"></Button>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Grid.Row="8">
+            <Button x:Name="team6" Text="Equipo6" BackgroundColor="#B3578D" VerticalOptions="Center"></Button>
+        </HorizontalStackLayout>
+
+        <VerticalStackLayout Grid.Row="7" Grid.Column="2">
+            <Button x:Name="win3Btn" Text="Win3" BackgroundColor="#B3578D" WidthRequest="80" HeightRequest="40"></Button>
+        </VerticalStackLayout>
+        
+        <HorizontalStackLayout Grid.Row="9">
+            <Button x:Name="team7" Text="Equipo7" BackgroundColor="Violet" VerticalOptions="Center"></Button>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Grid.Row="11">
+            <Button x:Name="team8" Text="Equipo8" BackgroundColor="Violet" VerticalOptions="Center"></Button>
+        </HorizontalStackLayout>
+
+        <VerticalStackLayout Grid.Row="10" Grid.Column="2">
+            <Button x:Name="win4Btn" Text="Win4" BackgroundColor="Violet" WidthRequest="80" HeightRequest="40"></Button>
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>

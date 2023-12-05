@@ -8,18 +8,9 @@ namespace MauiApp1
         {
             InitializeComponent();
 
-
-
-            var loginPage = new Login();
-
-            // Oculta la barra de navegación en la página de inicio de sesión
-            NavigationPage.SetHasNavigationBar(loginPage, false);
-
-            // Establece la página de inicio de sesión como la página principal
-            MainPage = new NavigationPage(loginPage);
-
-            //MainPage = new AppShell();
+            MainPage = new Login();
+                        
         }
-       
+
     }
 }
