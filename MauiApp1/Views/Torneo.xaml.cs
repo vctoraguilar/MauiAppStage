@@ -8,14 +8,10 @@ public partial class Torneo : ContentPage
 	{
 		InitializeComponent();
         CrearBtn.Clicked += CrearBtn_Clicked;
-        enfrentamientoBtn.Clicked += EnfrentamientoBtn_Clicked;
 
     }
 
-    private void EnfrentamientoBtn_Clicked(object? sender, EventArgs e)
-    {
-        Application.Current.MainPage = new Enfrentamiento();
-    }
+   
 
     private void CrearBtn_Clicked(object? sender, EventArgs e)
     {

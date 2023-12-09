@@ -6,41 +6,38 @@
              Title="Torneo">
     <VerticalStackLayout
         x:Name="TorneoLayout"
-        Margin="25"
+        Margin="15"
         Padding="30,30,30,30">
         
         <Label 
             x:Name="creaLbl"
             Text="Crea un torneo"
-            FontSize="{MyCode:GlobalFontSize}"
+            FontSize="18"
             TextColor="#D466A3"
             VerticalOptions="Center" 
             HorizontalOptions="Center"
             HeightRequest="50"/>
         <Button
             x:Name="CrearBtn"
-            Text="Crear Torneo"
+            Text="Crear"
             HorizontalOptions="Center"
             HeightRequest="40"/>
+        <Label 
+            Text="Tus Torneos"
+            FontSize="18"
+            TextColor="#D466A3"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start"
+            Margin="0,40,0,15"/>
+        <ContentView>
+            <MyCode:TorneoDetalle></MyCode:TorneoDetalle>
+        </ContentView>
+        <ContentView>
+            <MyCode:TorneoDetalle></MyCode:TorneoDetalle>
+        </ContentView>
 
-        <HorizontalStackLayout Padding="20" Margin="30">
-            <Label
-                 x:Name="team1Lbl"
-                 Text="Torneo 1"
-                 FontSize="14"
-                 FontAttributes="Bold"
-                 TextColor="#D466A3"
-                 HorizontalOptions="Start"
-                 Margin="10,0,10,10"
-                />
-            <Button
-                x:Name="enfrentamientoBtn"
-                Text="Enfrentamientos"
-                FontSize="10"
-                HorizontalOptions="End"/>
 
-        </HorizontalStackLayout>
 
-       
+
     </VerticalStackLayout>
 </ContentPage>
