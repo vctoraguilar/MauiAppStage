@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Views.Registro"
+             Title="Registro">
+    <VerticalStackLayout BackgroundColor="#273169" Spacing="10">
+
+        <Image
+            Source="completo_logo.png"
+            HeightRequest="120"
+            WidthRequest="120"
+            Margin="30,50"
+            />
+        <StackLayout Margin="0,10">
+            <Label 
+                Text="Usuario"
+                FontSize="13"
+                FontAttributes="Bold"
+                VerticalOptions="Center" 
+                HorizontalOptions="Start" 
+                Margin="80,0"
+                TextColor="White"/>
+
+            <Entry
+                TextColor="White"
+                WidthRequest="165"
+                HorizontalTextAlignment="Start"
+                HorizontalOptions="Center"
+                />
+        </StackLayout>
+
+        <StackLayout Margin="0,10">
+            <Label 
+                Text="Contraseña"
+                FontSize="13"
+                FontAttributes="Bold"
+                VerticalOptions="Center" 
+                HorizontalOptions="Start" 
+                Margin="80,0"
+                TextColor="White"/>
+
+            <Entry
+                TextColor="White"
+                WidthRequest="165"
+                HorizontalTextAlignment="Start"
+                HorizontalOptions="Center"
+                IsPassword="True"
+                />
+        </StackLayout>
+        
+        <StackLayout Margin="0,10">
+
+            <Label 
+                Text="Confirmar Contraseña"
+                FontSize="13"
+                FontAttributes="Bold"
+                VerticalOptions="Center" 
+                HorizontalOptions="Start" 
+                Margin="80,0"
+                TextColor="White"/>
+
+            <Entry
+                TextColor="White"
+                WidthRequest="165"
+                HorizontalTextAlignment="Start"
+                HorizontalOptions="Center"
+                IsPassword="True"
+                />
+        </StackLayout>
+        <Button
+            x:Name="registroButton"
+            Text="Registrarse"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            TextColor="White"
+            BackgroundColor="#D466A3"
+            Margin="20"
+            />
+    </VerticalStackLayout>
+</ContentPage>
